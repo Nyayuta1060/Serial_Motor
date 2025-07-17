@@ -1,6 +1,5 @@
 import sys
 import serial
-import time
 
 if len(sys.argv) != 3:
     print(f"Usage: python {sys.argv[0]} <serial_port> <value>")
