@@ -10,7 +10,7 @@ class SerialSenderGUI:
         self.serial_port = None
         self.ser = None
 
-        # シリアルポート選択
+        #シリアルポートの選択画面
         self.port_label = ttk.Label(root, text="Serial Port:")
         self.port_label.grid(row=0, column=0, padx=5, pady=5)
         self.port_combo = ttk.Combobox(root, values=self.get_serial_ports(), width=20)
@@ -26,13 +26,13 @@ class SerialSenderGUI:
         self.send_value_btn = ttk.Button(root, text="Send Value", command=self.send_value)
         self.send_value_btn.grid(row=1, column=2, padx=5, pady=5)
 
-        # i/oボタン
+        # ON/OFFボタン
         self.i_btn = ttk.Button(root, text="Start (i)", command=lambda: self.send_cmd('i'))
         self.i_btn.grid(row=2, column=0, padx=5, pady=5)
         self.o_btn = ttk.Button(root, text="Stop (o)", command=lambda: self.send_cmd('o'))
         self.o_btn.grid(row=2, column=1, padx=5, pady=5)
 
-        # ステータス表示
+        # 結果表示
         self.status = tk.StringVar()
         self.status_label = ttk.Label(root, textvariable=self.status, foreground="blue")
         self.status_label.grid(row=3, column=0, columnspan=3, padx=5, pady=10)

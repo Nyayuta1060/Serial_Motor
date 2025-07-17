@@ -35,7 +35,6 @@ int main() {
         if (button == 0) {
             running = false;
         }
-        // 動作状態に応じてpwm送信
         int16_t send_pwm[4];
         if (running) {
             for (int i = 0; i < 4; i++) send_pwm[i] = pwm[i];

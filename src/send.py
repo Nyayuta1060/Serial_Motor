@@ -1,6 +1,7 @@
 import sys
 import serial
 
+
 if len(sys.argv) != 3:
     print(f"Usage: python {sys.argv[0]} <serial_port> <value>")
     print("  <value>: -25000~25000, or 'i', or 'o'")
