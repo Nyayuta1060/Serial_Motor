@@ -59,7 +59,6 @@ python src/GUI-Serial.py
 5. **ログ管理**
    - **Create Log File**: ログファイル作成のON/OFF切り替え
    - **Open Log File**: デフォルトテキストエディタでログファイルを開く
-   - **Delete Log File**: ログファイルを完全に削除
    - **Clear Log File**: ログファイルの内容をクリア（ファイルは保持）
 
 6. **制御ボタン**
