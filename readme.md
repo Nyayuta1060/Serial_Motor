@@ -59,7 +59,7 @@ python src/GUI-Serial.py
 5. **ログ管理**
    - **Create Log File**: ログファイル作成のON/OFF切り替え
    - **Open Log File**: デフォルトテキストエディタでログファイルを開く
-   - **Clear Log File**: ログファイルの内容をクリア（ファイルは保持）
+   - **Clear Log File**: ログファイルの内容をクリア
 
 6. **制御ボタン**
    - **Start (i)**: モーター操作開始
@@ -102,7 +102,6 @@ python src/GUI-Serial.py
 - ログ機能の有効/無効切り替え
 - ログファイルの表示
 - ログ内容のクリア
-- ログファイルの削除
 
 ## エラーハンドリング
 
