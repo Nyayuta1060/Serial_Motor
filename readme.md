@@ -113,4 +113,5 @@ python src/GUI-Serial.py
 
 ---
 
+＊GUI-Serial-v2.pyは現状使用できません。
 ＊このファイルはClaude Sonnet 4によって生成されました。
